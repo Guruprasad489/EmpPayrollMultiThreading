@@ -27,13 +27,13 @@ namespace EmpPayrollMultiThreading
             Console.WriteLine("Duration without multi thread: " + stopWatch1.ElapsedMilliseconds);
             Console.WriteLine("-------------------");
 
-            //Stopwatch stopWatch2 = new Stopwatch();
-            //stopWatch2.Start();
-            //employeePayrollOperations.AddEmployeeToPayrollWithThread(employeeDetails);
-            //stopWatch2.Stop();
-            //Console.WriteLine("Duration with multi thread: " + stopWatch1.ElapsedMilliseconds);
-            //Console.WriteLine("Employee count"+ employeePayrollOperations.EmployeeCount());
-            //Console.WriteLine("-------------------");
+            Stopwatch stopWatch2 = new Stopwatch();
+            stopWatch2.Start();
+            employeePayrollOperations.AddEmployeeToPayrollWithThread(employeeDetails);
+            stopWatch2.Stop();
+            Console.WriteLine("Duration with multi thread: " + stopWatch1.ElapsedMilliseconds);
+            Console.WriteLine("Employee count" + employeePayrollOperations.EmployeeCount());
+            Console.WriteLine("-------------------");
 
             Console.ReadLine();
         }
