@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpPayrollMultiThreading", "EmpPayrollMultiThreading\EmpPayrollMultiThreading.csproj", "{5867141C-77E8-4379-B896-C706414CD69B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL", "TPL\TPL.csproj", "{89BD20FB-7772-4014-8135-E3B4939D0293}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5867141C-77E8-4379-B896-C706414CD69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5867141C-77E8-4379-B896-C706414CD69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5867141C-77E8-4379-B896-C706414CD69B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89BD20FB-7772-4014-8135-E3B4939D0293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89BD20FB-7772-4014-8135-E3B4939D0293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89BD20FB-7772-4014-8135-E3B4939D0293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89BD20FB-7772-4014-8135-E3B4939D0293}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
